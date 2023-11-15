@@ -19,15 +19,14 @@ def search_for_saved_filename(url: str, info: dict) -> int:
 def get_saved_filename_alias() -> dict:
     file_name = 'dict_filenames.json'
     with open(file_name, "r") as json_file:
-        info = json.load(json_file)
+        info = json.loads(json_file.read(0))
     return info
 
 
 def dump_saved_filenames_alias(new_dict: dict) -> None:
-    file_name = 'dict_filenames.pkl'
+    file_name = 'dict_filenames.json'
     with open(file_name, "w") as pickle_file:
-        json.dump(dict, pickle_file, indent=4,
-                        separators=(',',': '))
+        json.dump(dict, pickle_file, indent=4, separators=(',', ': '))
 
 
 def create_name_for_filename(string: str):

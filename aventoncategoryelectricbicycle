@@ -107,7 +107,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <script src="https://ebicycle-db.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.4.6" id="revmin-js"></script>
 <link rel="https://api.w.org/" href="https://ebicycle-db.com/wp-json/" /><link rel="alternate" type="application/json" href="https://ebicycle-db.com/wp-json/wp/v2/brands/1499" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ebicycle-db.com/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 6.4.1" />
-<meta name="framework" content="Redux 4.3.5" /><style id="ecofuel-custom-style-c9d30">
+<meta name="framework" content="Redux 4.3.5" /><style id="ecofuel-custom-style-b9dbc">
 .pt-breadcrumb{
 background-image:url(http://ebicycle-db.com/wp-content/uploads/2021/11/Renault-Kangoo-Maxi-ZE-33-interior-6.jpeg)!important;
 }
@@ -132,22 +132,22 @@ background-repeat:no-repeat !important;
 background-attachment:fixed !important;
 }
 
-</style><style id="ecofuel-custom-style-1df99">
+</style><style id="ecofuel-custom-style-6ed9b">
 #pt-header .pt-btn-container{
 display:none !important;
 }
 
-</style><style id="ecofuel-custom-style-5c49a">
+</style><style id="ecofuel-custom-style-a9a34">
 header#pt-header .pt-top-header {
 display:none !important;
 }
 
-</style><style id="ecofuel-custom-style-35d74">
+</style><style id="ecofuel-custom-style-3a93f">
 #pt-loading{
 background:#8bc34a!important;
 }
 
-</style><style id="ecofuel-custom-style-9f9c4">
+</style><style id="ecofuel-custom-style-d45f0">
 #pt-header img.logo{
 height:73px!important;
 }
