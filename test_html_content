@@ -1,0 +1,218 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+"http://www.w3.org/TR/REC-html40/transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Beautiful Soup: We called him Tortoise because he taught us.</title>
+<link rev="made" href="mailto:leonardr@segfault.org">
+<link rel="stylesheet" type="text/css" href="/nb/themes/Default/nb.css">
+<meta name="Description" content="Beautiful Soup: a library designed for screen-scraping HTML and XML.">
+<meta name="generator" content="Markov Approximation 1.4 (module: leonardr)">
+<meta name="author" content="Leonard Richardson">
+</head>
+<body bgcolor="white" text="black" link="blue" vlink="660066" alink="red">
+<style>
+#tidelift { }
+
+#tidelift a {
+ border: 1px solid #666666;
+ margin-left: auto;
+ padding: 10px;
+ text-decoration: none;
+}
+
+#tidelift .cta {
+ background: url("tidelift.svg") no-repeat;
+ padding-left: 30px;
+}
+</style>		   
+
+<img align="right" src="10.1.jpg" width="250"><br />
+
+<p>[ <a href="#Download">Download</a> | <a
+href="bs4/doc/">Documentation</a> | <a href="#HallOfFame">Hall of Fame</a> | <a href="enterprise.html">For enterprise</a> | <a href="https://code.launchpad.net/beautifulsoup">Source</a> | <a href="https://git.launchpad.net/beautifulsoup/tree/CHANGELOG">Changelog</a> | <a href="https://groups.google.com/forum/?fromgroups#!forum/beautifulsoup">Discussion group</a>  | <a href="zine/">Zine</a> ]</p>
+
+<div align="center">
+
+<a href="bs4/download/"><h1>Beautiful Soup</h1></a>
+
+</div>
+
+<p>You didn't write that awful page. You're just trying to get some
+data out of it. Beautiful Soup is here to help. Since 2004, it's been
+saving programmers hours or days of work on quick-turnaround
+screen scraping projects.</p>
+
+<p>Beautiful Soup is a Python library designed for quick turnaround
+projects like screen-scraping. Three features make it powerful:
+
+<ol>
+
+<li>Beautiful Soup provides a few simple methods and Pythonic idioms
+for navigating, searching, and modifying a parse tree: a toolkit for
+dissecting a document and extracting what you need. It doesn't take
+much code to write an application
+
+<li>Beautiful Soup automatically converts incoming documents to
+Unicode and outgoing documents to UTF-8. You don't have to think
+about encodings, unless the document doesn't specify an encoding and
+Beautiful Soup can't detect one. Then you just have to specify the
+original encoding.
+
+<li>Beautiful Soup sits on top of popular Python parsers like <a
+href="http://lxml.de/">lxml</a> and <a
+href="http://code.google.com/p/html5lib/">html5lib</a>, allowing you
+to try out different parsing strategies or trade speed for
+flexibility.
+
+</ol>
+
+<p>Beautiful Soup parses anything you give it, and does the tree
+traversal stuff for you. You can tell it "Find all the links", or
+"Find all the links of class <tt>externalLink</tt>", or "Find all the
+links whose urls match "foo.com", or "Find the table heading that's
+got bold text, then give me that text."
+
+<p>Valuable data that was once locked up in poorly-designed websites
+is now within your reach. Projects that would have taken hours take
+only minutes with Beautiful Soup.
+
+<p>Interested? <a href="bs4/doc/">Read more.</a>
+
+<h3>Getting and giving support</h3>
+
+<div id="tidelift" align="center">
+<a href="https://tidelift.com/subscription/pkg/pypi-beautifulsoup4?utm_source=pypi-beautifulsoup4&utm_medium=referral&utm_campaign=enterprise" target="_blank">
+ <span class="cta">
+  Beautiful Soup for enterprise available via Tidelift
+ </span>
+</a>
+</div>
+
+<p>If you have questions, send them to <a
+href="https://groups.google.com/forum/?fromgroups#!forum/beautifulsoup">the discussion
+group</a>. If you find a bug, <a href="https://bugs.launchpad.net/beautifulsoup/">file it on Launchpad</a>. If it's a security vulnerability, report it confidentially through <a href="https://tidelift.com/security">Tidelift</a>.</p>
+
+<p>If you use Beautiful Soup as part of your work, please consider a <a href="https://tidelift.com/subscription/pkg/pypi-beautifulsoup4?utm_source=pypi-beautifulsoup4&utm_medium=referral&utm_campaign=website">Tidelift subscription</a>. This will support many of the free software projects your organization depends on, not just Beautiful Soup.
+
+
+<p>If Beautiful Soup is useful to you on a personal level, you might like to read <a href="zine/"><i>Tool Safety</i></a>, a short zine I wrote about what I learned about software development from working on Beautiful Soup. Thanks!</p>
+</div>
+
+
+<a name="Download"><h2>Download Beautiful Soup</h2></a>
+
+<p>The current release is <a href="bs4/download/">Beautiful Soup
+4.12.2</a> (April 7, 2023). You can install Beautiful Soup 4 with
+<code>pip install beautifulsoup4</code>.
+
+<p>In Debian and Ubuntu, Beautiful Soup is available as the
+<code>python3-bs4</code> package. In Fedora it's
+available as the <code>python3-beautifulsoup4</code> package.
+
+<p>Beautiful Soup is licensed under the MIT license, so you can also
+download the tarball, drop the <code>bs4/</code> directory into almost
+any Python application (or into your library path) and start using it
+immediately.
+
+<p>Beautiful Soup 4 is supported on Python versions 3.6 and
+greater. Support for Python 2 was discontinued on January 1, 2021&mdash;one
+year after the Python 2 sunsetting date.
+
+<h3>Beautiful Soup 3</h3>
+
+<p>Beautiful Soup 3 was the official release line of Beautiful Soup
+from May 2006 to March 2012. It does not support Python 3 and was
+discontinued or January 1, 2021&mdash;one year after the Python 2
+sunsetting date. If you have any active projects using Beautiful Soup
+3, you should migrate to Beautiful Soup 4 as part of your Python 3
+conversion.
+
+<p><a
+href="http://www.crummy.com/software/BeautifulSoup/bs3/documentation.html">Here's
+the Beautiful Soup 3 documentation.</a>
+
+<p>The current and hopefully final release of Beautiful Soup 3 is <a
+href="download/3.x/BeautifulSoup-3.2.2.tar.gz">3.2.2</a> (October 5,
+2019). It's the <code>BeautifulSoup</code> package on pip. It's also
+available as <code>python-beautifulsoup</code> in Debian and Ubuntu,
+and as <code>python-BeautifulSoup</code> in Fedora.
+
+<p>Once Beautiful Soup 3 is discontinued, these package names will be available for use by a more recent version of Beautiful Soup.
+
+<p>Beautiful Soup 3, like Beautiful Soup 4, is <a href="https://tidelift.com/subscription/pkg/pypi-beautifulsoup?utm_source=pypi-beautifulsoup&utm_medium=referral&utm_campaign=website">supported through Tidelift</a>.</p>
+
+<a name="HallOfFame"><h2>Hall of Fame</h2></a>
+
+<p>Over the years, Beautiful Soup has been used in hundreds of
+different projects. There's no way I can list them all, but I want to
+highlight a few high-profile projects. Beautiful Soup isn't what makes
+these projects interesting, but it did make their completion easier:
+
+<ul>
+
+<li><a
+ href="http://www.nytimes.com/2007/10/25/arts/design/25vide.html">"Movable
+ Type"</a>, a work of digital art on display in the lobby of the New
+ York Times building, uses Beautiful Soup to scrape news feeds.
+
+<li>Jiabao Lin's <a
+href="https://github.com/BlankerL/DXY-COVID-19-Crawler">DXY-COVID-19-Crawler</a>
+uses Beautiful Soup to scrape a Chinese medical site for information
+about COVID-19, making it easier for researchers to track the spread
+of the virus. (Source: <a href="https://blog.tidelift.com/how-open-source-software-is-fighting-covid-19">"How open source software is fighting COVID-19"</a>)
+
+<li>Reddit uses Beautiful Soup to <a
+href="https://github.com/reddit/reddit/blob/85f9cff3e2ab9bb8f19b96acd8da4ebacc079f04/r2/r2/lib/media.py">parse
+a page that's been linked to and find a representative image</a>.
+
+<li>Alexander Harrowell uses Beautiful Soup to <a
+ href="http://www.harrowell.org.uk/viktormap.html">track the business
+ activities</a> of an arms merchant.
+
+<li>The developers of Python itself used Beautiful Soup to <a
+href="http://svn.python.org/view/tracker/importer/">migrate the Python
+bug tracker from Sourceforge to Roundup</a>.
+
+<li>The <a href="http://www2.ljworld.com/">Lawrence Journal-World</a>
+uses Beautiful Soup to <A
+href="http://www.b-list.org/weblog/2010/nov/02/news-done-broke/">gather
+statewide election results</a>.
+
+<li>The <a href="http://esrl.noaa.gov/gsd/fab/">NOAA's Forecast
+Applications Branch</a> uses Beautiful Soup in <a
+href="http://laps.noaa.gov/topograbber/">TopoGrabber</a>, a script for
+downloading "high resolution USGS datasets."
+
+</ul>
+
+<p>If you've used Beautiful Soup in a project you'd like me to know
+about, please do send email to me or <a
+href="http://groups.google.com/group/beautifulsoup/">the discussion
+group</a>.
+
+<h2>Development</h2>
+
+<p>Development happens at <a
+href="https://launchpad.net/beautifulsoup">Launchpad</a>. You can <a
+href="https://code.launchpad.net/beautifulsoup/">get the source
+code</a> or <a href="https://bugs.launchpad.net/beautifulsoup/">file
+bugs</a>.<hr><table><tr><td valign="top">
+<p>This document is part of Crummy, the webspace of <a href="/self/">Leonard Richardson</a> (<a href="/self/contact.html">contact information</a>). It was last modified on Friday, April 07 2023, 19:56:57 Nowhere Standard Time and last built on Wednesday, November 15 2023, 00:00:02 Nowhere Standard Time.</p><p><table class="licenseText"><tr><td><a href="http://creativecommons.org/licenses/by-sa/2.0/"><img border="0" src="/nb//resources/img/somerights20.jpg"></a></td><td valign="top">Crummy is &copy; 1996-2023 Leonard Richardson. Unless otherwise noted, all text licensed under a <a href="http://creativecommons.org/licenses/by-sa/2.0/">Creative Commons License</a>.</td></tr></table></span><!--<rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><Work rdf:about="http://www.crummy.com/"><dc:title>Crummy: The Site</dc:title><dc:rights><Agent><dc:title>Crummy: the Site</dc:title></Agent></dc:rights><dc:format>text/html</dc:format><license rdf:resource=http://creativecommons.org/licenses/by-sa/2.0//></Work><License rdf:about="http://creativecommons.org/licenses/by-sa/2.0/"></License></rdf:RDF>--></p></td><td valign=top><p><b>Document tree:</b>
+<dl><dd><a href="http://www.crummy.com/">http://www.crummy.com/</a><dl><dd><a href="http://www.crummy.com/software/">software/</a><dl><dd><a href="http://www.crummy.com/software/BeautifulSoup/">BeautifulSoup/</a></dl>
+</dl>
+</dl>
+
+
+Site Search:
+
+<form method="get" action="/search/">
+        <input type="text" name="q" maxlength="255" value=""></input>
+        </form>
+        </td>
+
+</tr>
+
+</table>
+</body>
+</html>
